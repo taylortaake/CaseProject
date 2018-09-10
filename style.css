@@ -1,3 +1,4 @@
+* {box-sizing: border-box;}
 html{
   background-image: url("codebackground.jpg");
   background-color: black;
@@ -11,13 +12,23 @@ html{
 }
 h1{
   font-size: 60px;
-  padding: 50px 50px 10px 50px
+  padding-top: 50px;
+  margin: 0;
 }
+h5{margin: 0;
+padding-bottom: 20px;}
 nav{
   background-color: grey;
   opacity: 1;
   padding: 17px;
-  position: relative;
+}
+nav input[type=text]{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
 }
 a{
   padding: 5px;
