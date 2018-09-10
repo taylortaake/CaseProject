@@ -1,0 +1,40 @@
+html{
+  background-image: url("codebackground.jpg");
+  background-color: black;
+  background-size: cover;
+    padding: 10px 50px 50px 50px;
+}
+.container{
+  opacity: 0.96;
+  background-color: white;
+  text-align: center;
+}
+h1{
+  font-size: 60px;
+  padding: 50px 50px 10px 50px
+}
+nav{
+  background-color: grey;
+  opacity: 1;
+  padding: 17px;
+  position: relative;
+}
+a{
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+a:hover{
+  background-color: white;
+  opacity: 1;
+  padding: 17px;
+  color: black;
+  font-weight:900;
+}
+p{
+  font-size: 19px;
+  padding: 10px;
+}
+img{
+  padding: 10px;
+}
