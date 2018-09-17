@@ -11,30 +11,28 @@
     <div class = "container">
       <h1>Case Project</h1>
       <h5>like... a tower case</h5>
-      <nav>
-        <!--- Creating Dropdown for Navigation-->
-        <div class="dropdown">
-          <!--Create button-->
-          <button onclick="dropDown()" class="dropbutton">Menu</button>
-            <!--Div for all Dropdown links-->
-            <div id="Dropdown" class="dropdown-content">
-              <!--Dropdown links-->
-              <a href="index.html">Home</a>
-              <a href="what.html">Parts of a Computer</a>
-            </div>
+      <!--- Creating Dropdown for Navigation-->
+      <div class="dropdown">
+        <!--Create button-->
+        <button onclick="dropDown()" class="dropbutton">Menu</button>
+          <!--Div for all Dropdown links-->
+          <div id="Dropdown" class="dropdown-content">
+            <!--Dropdown links-->
+            <a href="index.html">Home</a>
+            <a href="what.html">Parts of a Computer</a>
+          </div>
+      </div>
+        <img id = "modal" src="indexpicture.png" alt= "towercases"/>
+         <!--Modal -->
+        <div id = "theModal" class="modal">
+          <!-- The Close Button -->
+          <span class = "close">&times;</span>
+          <!--Modal Image -->
+          <img class="modalContent" id="imgOne">
+          <!--Modal Caption-->
+          <div id = "caption"></div>
         </div>
-      </nav>
-            <img id = "modal" src="indexpicture.png" alt= "towercases"/>
-            <!--Modal -->
-            <div id = "theModal" class="modal">
-              <!-- The Close Button -->
-              <span class = "close">&times;</span>
-              <!--Modal Image -->
-              <img class="modalContent" id="imgOne">
-              <!--Modal Caption-->
-              <div id = "caption"></div>
-            </div>
-            <p>Computers are used all the time in every day life, but what makes the computer run the way it does? This website is designed to help with knowing the parts of a computer, and what exactly it does.</p>
+          <p>Computers are used all the time in every day life, but what makes the computer run the way it does? This website is designed to help with knowing the parts of a computer, and what exactly it does.</p>
         </div>
       <div class="copyright">
         <p>Taylor Taake & Austin Landers&copy;</p>
