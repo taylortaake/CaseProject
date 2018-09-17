@@ -1,7 +1,6 @@
-<script>
 //Toggle Dropdown between hiding and showing
 function dropDown() {
-  document.getElementById("dropdown").classList.toggle("show");
+    document.getElementById("dropdown").classList.toggle("show");
 }
 
 //Close Dropdown when user clicks away
@@ -39,4 +38,3 @@ window.onclick = function(event) {
   span.onclick = function() {
     modal.style.display = "none";
 }
-</script>

@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="modernizr.custom.05819.js"></script>
+		<script src="script.js" rel="javascript"></script>
 		
 		<title>Case Project</title>
 	</head>
@@ -19,13 +19,19 @@
     <body>
       <div class="container">
 
-        <header>
-            <h1>What Makes Up a Computer?</h1>
+        <h1>What Makes Up a Computer?</h1>
 
-            <nav>
-							<a href="index.html">Home</a>
-            </nav>
-        </header>
+        <!--- Creating Dropdown for Navigation-->
+        <div class="dropdown">
+          <!--Create button-->
+          <button onclick="dropDown()" class="dropbutton">Menu</button>
+            <!--Div for all Dropdown links-->
+            <div id="dropdown" class="dropdown-content">
+              <!--Dropdown links-->
+              <a href="index.html">Home</a>
+              <a href="what.html">Parts of a Computer</a>
+            </div>
+        </div>
 
 				<div class="intro">
 					<h2>Before we talk about the parts...</h2>
