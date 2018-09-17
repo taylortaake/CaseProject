@@ -4,7 +4,7 @@ html{
   background-size: cover;
     padding: 10px 50px 50px 50px;
 }
-.container{
+.container, .copyright{
   opacity: 0.96;
   background-color: white;
   text-align: center;
@@ -14,8 +14,9 @@ h1{
   padding-top: 50px;
   margin: 0;
 }
-h5{margin: 0;
-padding-bottom: 20px;}
+h5{
+  margin: 0;
+  padding-bottom: 20px;}
 nav{
   background-color: grey;
   opacity: 1;
