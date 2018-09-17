@@ -21,10 +21,16 @@
             <a href="what.html">Parts of a Computer</a>
           </div>
       </div>
-        <img src="indexpicture.png" alt= "towercases"/>
+        <img src="indexpicture.png" id = "towercases" alt= "towercases"/>
       <p>Computers are used all the time in every day life, but what makes the computer run the way it does? This website is designed to help with knowing the parts of a computer, and what exactly it does.</p>
     <div class="copyright">
       <p>Taylor Taake & Austin Landers&copy;</p>
     </div>
+    <script>
+    document.getElementById("towercases").
+      addEventListener("click", function(){
+        alert("This is a tower case.");
+      }, false);
+    </script>
   </body>
 </html>
