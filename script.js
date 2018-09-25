@@ -28,9 +28,6 @@ function printPictures(){
   document.write("<h4>Click any picture to find out what it is.</h4>");
 
   for (let i = 0; i < parts.length; i++) {
-    for(let j = 0; j <imageArray.length; j++){
-
-    }
     document.write("<img src='part" + i + ".jpg' onclick='alert(" + i + ")' id='" + i + "'/>");
     document.getElementById(i).addEventListener("click", function(){
       alert("This is "+ parts[i]);
